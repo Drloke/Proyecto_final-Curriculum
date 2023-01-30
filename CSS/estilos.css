@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgb(223, 241, 248);
+    font-family: 'Signika', sans-serif;
+}
+
+/*
+* {
+    font-family: 'Signika', sans-serif;
+}*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Special Elite', cursive;
+}
+
+
+#navbar {
+    background-color: rgb(164, 181, 238);
+}
+
+/* Colores botones nav bar */
+#navbar_bot {
+    background-color: rgba(164, 181, 238);
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+}
+
+
+/* padding de los botones de la barra nav*/
+#margnav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+}
+    
+#mail_primero {
+    /*padding: 20px;
+    margin: 20px;*/
+    text-align: center;
+    /*background: rgba(164, 182, 238, .2);*/
+}
+
+#apellido {
+    color:rgb(235, 132, 48)
+}
+
+/*Colores de las cards*/
+#cardss1, #cardss2, #cardss3, #cardss4, #cardss5,
+#cardss6, #cardss7, #cardss8, #cardss9 {
+    background-color: rgba(164, 181, 238, .4);
+}
+
+
+/*
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+  class="bg-success p-2" style="--bs-bg-opacity: .5;"
+  */
+
+#datos_per {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/*Boton de contacto en datos personales*/
+#boton_mail {
+    background-color: rgb(81, 164, 241);
+}
+
+
+/*BOTON UP*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  /* Fuente de Google
+  *{
+    font-family: 'Aboreto', cursive;
+    font-family: 'Padyakke Expanded One', cursive;
+    font-family: 'Roboto', sans-serif;
+  }*/
+
+  #imagen {
+      text-align: center;
+  }
+
+  #color_original {
+    display: none;
+  }
+
+  #color_contraste {
+    margin-right: 15px;
+  }
