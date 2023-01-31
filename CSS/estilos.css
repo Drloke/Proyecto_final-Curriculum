@@ -4,10 +4,7 @@ body{
     font-family: 'Signika', sans-serif;
 }
 
-/*
-* {
-    font-family: 'Signika', sans-serif;
-}*/
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Special Elite', cursive;
@@ -51,13 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/*
-.bg-success {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
-  }
-  class="bg-success p-2" style="--bs-bg-opacity: .5;"
-  */
+
 
 #datos_per {
     margin-top: 20px;
@@ -91,13 +82,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
-  /* Fuente de Google
-  *{
-    font-family: 'Aboreto', cursive;
-    font-family: 'Padyakke Expanded One', cursive;
-    font-family: 'Roboto', sans-serif;
-  }*/
-
+ 
+  
   #imagen {
       text-align: center;
   }
